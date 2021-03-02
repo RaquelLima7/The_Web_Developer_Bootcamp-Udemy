@@ -46,3 +46,8 @@ What will be learned:
 - Create a beautiful, responsive landing page for a startup
 - Create a beautiful animated todo list application
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 84be9c8b57e1d67f84f5fc8ca1fd49458c4ba384
