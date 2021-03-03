@@ -1,0 +1,38 @@
+h1 {
+    color: white;
+    background-color: navy;
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: pink underline wavy;
+    letter-spacing: 10px;
+}
+
+h2 {
+    color: black;
+    background-color:#3b4c78;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+}
+button {
+    color: whitesmoke;
+    background-color: #963252;
+}
+
+p {
+    color: #1f1a1b;
+    background: rgb(245, 43, 167);
+    text-align: justify;
+    font-weight: bolder;
+}
+
+body {
+    background-color: pink;
+}
+
+
+
