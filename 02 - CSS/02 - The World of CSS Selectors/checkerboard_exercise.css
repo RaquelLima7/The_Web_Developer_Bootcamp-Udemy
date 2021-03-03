@@ -1,0 +1,29 @@
+.square {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+
+  #board {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    flex-wrap: wrap;
+  }
+
+.square:nth-of-type(odd) {
+    background-color: white;
+}
+
+.square:nth-of-type(odd):hover {
+    background-color: rgb(31, 78, 94);
+}
+
+.square:nth-of-type(even) {
+    background-color: black;
+}
+
+.square:nth-of-type(even):hover {
+    background-color: pink;
+}
