@@ -4,7 +4,8 @@
 [Course link](https://www.udemy.com/course/the-web-developer-bootcamp/)
 
 <br>
-
+<h3> 📌 Click in each folder to see my progress 🗂 <h3>
+<br>
 
 There are 60 sections • 613 lessons • Total duration: 63h 2m
 
