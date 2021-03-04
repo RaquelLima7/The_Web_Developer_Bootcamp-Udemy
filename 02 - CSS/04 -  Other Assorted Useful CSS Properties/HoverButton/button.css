@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/736x/04/80/01/048001eaae49931a174a377792a3c4b9.jpg");
+  background-position: center;
+}
+ 
+button {
+  background: none;
+  color:palevioletred;
+  border: 2px solid;
+  border-radius: 15%;
+  padding: 2em 4em;
+  font-size: 1em;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+}
+
+button:hover {
+  border-color: #e1f509;
+  color: white;
+  box-shadow: 0 0.5em 0.10em -0.2em #f1ff5c;
+  transform: translateY(-0.50em);
+  cursor: pointer;
+}

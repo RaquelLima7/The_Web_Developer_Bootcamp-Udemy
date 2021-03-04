@@ -13,3 +13,9 @@
 <h2> Transitions exercise: </h2>
 
 <img src="./Transition/transition.gif" alt="transition gif">
+
+<br>
+<br>
+<h2> Hover button: </h2>
+
+<img src="./HoverButton/hover.gif" alt="hover button gif">
