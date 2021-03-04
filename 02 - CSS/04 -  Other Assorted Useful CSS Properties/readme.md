@@ -9,7 +9,7 @@
 - Google Fonts
 - Photo Blog CodeAlong 
 
-<!-- <br>
-<h2> Box exercise: I added some border style and animation. </h2>
+<br>
+<h2> Transitions exercise: </h2>
 
-<img src="box_exercise.gif" alt="box exercise gif"> -->
+<img src="./Transition/transition.gif" alt="transition gif">
