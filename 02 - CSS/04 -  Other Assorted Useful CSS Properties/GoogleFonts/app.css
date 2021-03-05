@@ -1,0 +1,23 @@
+body {
+    font-family: 'Cedarville Cursive', cursive;
+}
+ 
+main {
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h1 + h2 {
+    margin-top: 10px;
+}
+
+h1,h2,h3 {
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: 100;
+}
