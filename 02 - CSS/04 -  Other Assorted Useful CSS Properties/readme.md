@@ -19,3 +19,9 @@
 <h2> Hover button: </h2>
 
 <img src="./HoverButton/hover.gif" alt="hover button gif">
+
+<br>
+<br>
+<h2> Background: </h2>
+
+<img src="./Background/background.png" alt="background saranghae gif">
