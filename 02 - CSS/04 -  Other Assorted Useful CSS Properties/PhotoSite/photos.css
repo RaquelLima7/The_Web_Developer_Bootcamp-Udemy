@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color:#F6F2F1;
+}
+
+img {
+    width: 25%;
+    height: 400px;
+    object-fit: cover;
+    margin: calc(25%/6);
+    border-radius: 20px;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+nav {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    color: #DF589A;
+    border-bottom: 2px solid #8f3b6c;
+    width: 25%;
+    margin-left: calc(25%/6);
+    padding: 20px/* 1.2em 0; */
+}
+
+footer {
+    background-color:#CD4261;
+    padding: 20px 0px;
+	text-align: center;
+	margin: 50px 0 0 0;
+}
