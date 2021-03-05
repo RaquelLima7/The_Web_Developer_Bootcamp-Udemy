@@ -28,6 +28,6 @@
 
 <br>
 <br>
-<h2> Phote Site Katarina: </h2>
+<h2> Photo Site Katarina: </h2>
 
 <img src="./PhotoSite/katarina.gif" alt="Katarina gif">
