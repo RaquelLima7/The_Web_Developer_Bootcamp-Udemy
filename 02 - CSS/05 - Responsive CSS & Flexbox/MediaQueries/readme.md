@@ -1,0 +1,1 @@
+<img src="Media.gif" alt="media queries gif">
