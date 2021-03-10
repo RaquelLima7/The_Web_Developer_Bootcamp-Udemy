@@ -6,6 +6,16 @@ clear()
 -99;
 0.345345;
 
+// NaN is a numeric value that represents something that is not a number
+
+0/0
+
+// typeof to find a type of the object
+
+typeof 4 // "number"
+0/0 //"NaN"
+
+
 //Making variables with let:
 let numberOfFriends = 1;
 
