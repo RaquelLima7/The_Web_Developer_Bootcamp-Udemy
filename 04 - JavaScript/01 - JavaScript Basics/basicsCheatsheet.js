@@ -26,10 +26,13 @@ let numberOfFriends = 2; // just set the variable with another value
 
 //Incrementing:
 numberOfFriends += 3; //numberOfFriends is now 5
-numberOfFriends-- // will be 4, because -- subtract 1
+numberOfFriends-- // will be 4, because -- subtract 1 - It's the same logic for ++
 
 // Variables with const
 const minimumAge = 21; //CANNOT REASSIGN!
+
+// var 
+// It's oldest way to declared a variable
 
 
 //Booleans - true or false values
