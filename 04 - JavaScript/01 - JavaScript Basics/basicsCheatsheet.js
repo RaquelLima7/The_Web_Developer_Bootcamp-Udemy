@@ -45,3 +45,6 @@ let isHappy = true;
 let numberOfChickens = 6; //GOOD
 // NOT THE JS WAY:
 // let number_of_chickens = 6;
+
+// you can use a letter, but not in beginning
+let num1 = 1 // but not never => let 1num = 1
