@@ -25,10 +25,12 @@ let numberOfFriends = 1; // let => variable's name => value
 let numberOfFriends = 2; // just set the variable with another value
 
 //Incrementing:
-numberOfFriends += 3; //numberOfFriends is now 4
+numberOfFriends += 3; //numberOfFriends is now 5
+numberOfFriends-- // will be 4, because -- subtract 1
 
 // Variables with const
 const minimumAge = 21; //CANNOT REASSIGN!
+
 
 //Booleans - true or false values
 true;
