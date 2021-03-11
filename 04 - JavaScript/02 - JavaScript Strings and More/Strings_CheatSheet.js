@@ -43,6 +43,13 @@ greeting.trim().toLocaleUpperCase()
 // slice - returns a "slice" of a string
 "pancake".slice(3); //"cake" - slice from index 3 onwards
 "pancake".slice(0, 3); //"pan" - slice from index 0 up to index 3
+let str = "hello world"
+str.slice(6, 10) // => endIndex (10) is opcional
+"worl"
+
+// If we use negative number, will return backwards
+str.slice(-1)
+"d" // => because "d" is the last character from the variable
 
 // replace - returns a new string, with the FIRST match replaced
 "pump".replace("p", "b"); //"bump" - only replaces first "p"
