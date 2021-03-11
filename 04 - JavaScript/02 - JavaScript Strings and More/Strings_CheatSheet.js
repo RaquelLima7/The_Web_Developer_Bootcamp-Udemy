@@ -23,7 +23,14 @@ city[3]; //'y'
 // String methods:
 'hello'.toUpperCase(); // "HELLO";
 'LOL'.toLowerCase(); // "lol"
-'    omg  '.trim(); // "omg"
+'    omg  '.trim(); // "omg" - remove the space
+
+// () execute a method
+
+// You can use 2 methods together
+let greeting = "    hello   "
+greeting.trim().toLocaleUpperCase()
+"HELLO"
 
 // String methods with arguments:
 // ==============================
