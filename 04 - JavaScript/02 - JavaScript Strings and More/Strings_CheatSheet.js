@@ -54,6 +54,10 @@ str.slice(-1)
 // replace - returns a new string, with the FIRST match replaced
 "pump".replace("p", "b"); //"bump" - only replaces first "p"
 
+// Repeat
+"lol".repeat(2) // => inside of () will say how many times you want to repeat
+"lollol"
+
 // String Template Literals
 // Use backtick characters, NOT SINGLE QUOTES!
 // ========================
