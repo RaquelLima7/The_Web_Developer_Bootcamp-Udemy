@@ -44,18 +44,18 @@ greeting.trim().toLocaleUpperCase()
 "pancake".slice(3); //"cake" - slice from index 3 onwards
 "pancake".slice(0, 3); //"pan" - slice from index 0 up to index 3
 let str = "hello world"
-str.slice(6, 10) // => endIndex (10) is opcional
+str.slice(6, 10); // => endIndex (10) is opcional
 "worl"
 
 // If we use negative number, will return backwards
-str.slice(-1)
+str.slice(-1);
 "d" // => because "d" is the last character from the variable
 
 // replace - returns a new string, with the FIRST match replaced
 "pump".replace("p", "b"); //"bump" - only replaces first "p"
 
 // Repeat
-"lol".repeat(2) // => inside of () will say how many times you want to repeat
+"lol".repeat(2); // => inside of () will say how many times you want to repeat
 "lollol"
 
 // String Template Literals
@@ -66,3 +66,31 @@ const msg = `My favorite color is: ${color}` //"My favorite color is: olive gree
 
 const str = `There are ${60 * 60 * 24} seconds in a day`//"There are 86400 seconds in a day"
 
+// Need to use ` when interpolate
+
+// Null -"Intentional absence of any value" - Must be assigned
+// Undefined - Variables that do not have an assigned value are undefined - JS says like "I don't know"
+
+// Math
+Math.PI // 3.141592
+
+// Rounding a number:
+Math.round(4.9) // 5
+
+// Absolute value:
+Math.abs(-456) // 456
+
+// Raises 2 to the 5th power:
+Math.pow(2,5) // 32
+
+// Removes decimal:
+Math.floor(3.9999) // 3
+
+// Rounding up
+Math.ceil(44.1) // 45
+
+// Random Number
+Math.random() // everytime when calls this method return a random  decimal between 0 and 1
+0.145098766
+
+Math.floor(Math.random() * 5) // to return a number between 0 to 4
