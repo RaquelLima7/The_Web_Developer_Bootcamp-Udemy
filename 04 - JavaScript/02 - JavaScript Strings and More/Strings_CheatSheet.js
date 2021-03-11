@@ -4,12 +4,21 @@ let color = "purple";
 // Single quotes work too:
 let city = 'Tokyo';
 
+// You can use too
+
+let city = 'I live in "Rio de Janeiro".' // If you use '' in string, inside must use "" or vice-versa.
+
 //Strings have a length:
 city.length; //5
 
 //We can access specific characters using their index:
 city[0]; //'T'
 city[3]; //'y'
+
+// Concatenation - 2 strings become one
+
+"lol" + "lol"
+"lollol"
 
 // String methods:
 'hello'.toUpperCase(); // "HELLO";
