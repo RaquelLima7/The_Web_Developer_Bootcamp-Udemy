@@ -72,3 +72,30 @@ console.log('reversed:', reversed); // expected output: "reversed:" Array ["thre
 console.log('array1:', array1); // expected output: "array1:" Array ["three", "two", "one"]
 
 
+// slice() - returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.
+const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+
+console.log(animals.slice(2)); // expected output: Array ["camel", "duck", "elephant"]
+
+console.log(animals.slice(2, 4)); // expected output: Array ["camel", "duck"]
+
+console.log(animals.slice(1, 5)); // expected output: Array ["bison", "camel", "duck", "elephant"]
+
+
+// splice() - changes the contents of an array by removing or replacing existing elements and/or adding new elements.
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb'); // inserts at index 1
+console.log(months); // expected output: Array ["Jan", "Feb", "March", "April", "June"]
+
+months.splice(4, 1, 'May'); // replaces 1 element at index 4
+
+console.log(months); // expected output: Array ["Jan", "Feb", "March", "April", "May"]
+
+// sort() - sorts the elements of an array and returns the sorted array.
+const months = ['March', 'Jan', 'Feb', 'Dec'];
+months.sort();
+console.log(months); // expected output: Array ["Dec", "Feb", "Jan", "March"]
+
+const array1 = [1, 30, 4, 21, 100000];
+array1.sort();
+console.log(array1); // expected output: Array [1, 100000, 21, 30, 4]
