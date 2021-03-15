@@ -17,7 +17,12 @@ colors[10] = "black"
 
 // Important array methods:
 //push(value) - adds value to the END of an array
+let movieLine = ["Tom", "Nancy"];
+movieLine.push("Oliver"); // let movieLine = ["Tom", "Nancy", "Oliver"];
+
 //pop() - removes and returns last value in array
+movieLine.pop() // It does not pass anything inside (), as it will remove the last item from the array.
+movieLine = ["Tom", "Nancy"]; // removes "Oliver"
 
 //unshift(val) - adds value to START of an array
 //shift() - removes and returns first element in an array
