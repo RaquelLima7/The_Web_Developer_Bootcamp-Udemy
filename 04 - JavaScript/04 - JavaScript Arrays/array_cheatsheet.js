@@ -25,4 +25,11 @@ movieLine.pop() // It does not pass anything inside (), as it will remove the la
 movieLine = ["Tom", "Nancy"]; // removes "Oliver"
 
 //unshift(val) - adds value to START of an array
+movieLine = ["Tom", "Nancy", "Oliver", "Eva"];
+movieLine.unshift("Jerry", "Denis");
+movieLine = ["Jerry", "Denis", "Tom", "Nancy", "Oliver", "Eva"];
+
 //shift() - removes and returns first element in an array
+movieLine = ["Tom", "Nancy", "Oliver", "Eva"];
+movieLine.shift()  // It will remove the first item
+movieLine = ["Nancy", "Oliver", "Eva"]; // removes "Tom"
