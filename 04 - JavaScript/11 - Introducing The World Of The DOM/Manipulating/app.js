@@ -30,3 +30,49 @@ const image = document.querySelector('img');
 container.style.textAlign = 'center';
 image.style.width = '150px';
 image.style.borderRadius = '50%';
+
+// class list
+const h2 = document.querySelector('h2')
+
+// set a class
+h2.setAttribute('purple') // now this attibutes has a class purple
+h2.setAttribute('border') // if do it again, lost the class above
+
+// to add classes 
+h2.classList.add('puple') // this both of cases will still the classes, like pushing into the element
+h2.classList.add('border')
+
+h2.classList.remove('border') // can remove too
+
+
+// iterate over li to toggle class
+const li = document.querySelectorAll('li');
+
+for (let i of li) {
+    i.classList.toggle('highlight');
+}
+
+// .creatElement()
+
+function addElement () {
+    // create a new div element
+    const newDiv = document.createElement("div");
+  
+    // and give it some content
+    const newContent = document.createTextNode("Hi there and greetings!");
+    // or div.append("Hi there and greetings!")
+  
+    // add the text node to the newly created div
+    newDiv.appendChild(newContent);
+  
+    // add the newly created element and its content into the DOM
+    const currentDiv = document.getElementById("div1");
+    document.body.insertBefore(newDiv, currentDiv);
+  }
+
+  for (let i = 0; i < 100; i++) {
+    const newButton = document.createElement("button");
+    newButton.innerText ='Hey!';
+    const container = document.querySelector("#container");
+    container.appendChild(newButton);
+  }
