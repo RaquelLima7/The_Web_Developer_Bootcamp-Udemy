@@ -15,4 +15,4 @@ isRightTriangle(3, 4, 5)
 
 console.log("DONEEEE!")
 
-//explain Debug in sources
+//explain Debug in sources 
