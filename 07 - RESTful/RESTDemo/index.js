@@ -55,15 +55,15 @@ app.get('/comments/new', (req, res) => {
 // **********************************
 app.post('/comments', (req, res) => {
     const { username, comment } = req.body;
-    comments.push({ username, comment, id: uuid() })
-    res.redirect('/comments');
+    comments.push({ username, comment, id: uuid() }) // add in file index.ejs
+    res.redirect('/comments'); // directs to the comments page, prevents new posts from the same comment
 })
 // *******************************************
 // SHOW - details about one particular comment
 // *******************************************
 app.get('/comments/:id', (req, res) => {
     const { id } = req.params;
-    const comment = comments.find(c => c.id === id);
+    const comment = comments.find(c => c.id === id); // to search id in data base
     res.render('comments/show', { comment })
 })
 // *******************************************
