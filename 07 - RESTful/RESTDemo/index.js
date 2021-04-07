@@ -56,6 +56,7 @@ app.get('/comments/new', (req, res) => {
 app.post('/comments', (req, res) => {
     const { username, comment } = req.body;
     comments.push({ username, comment, id: uuid() }) // add in file index.ejs
+    // uuid() for generating ID's - when to add a comment create a unique id
     res.redirect('/comments'); // directs to the comments page, prevents new posts from the same comment
 })
 // *******************************************
