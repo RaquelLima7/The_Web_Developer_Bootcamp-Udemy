@@ -1,5 +1,5 @@
 const path = require('path');
-const methodOverride = require('method-override')
+const methodOverride = require('method-override') // use HTTP verbs such as PUT or DELETE in places where the client doesn’t support it
 const { v4: uuid } = require('uuid'); //For generating ID's
 const express = require('express');
 const app = express();
@@ -95,7 +95,7 @@ app.patch('/comments/:id', (req, res) => {
 // *******************************************
 app.delete('/comments/:id', (req, res) => {
     const { id } = req.params;
-    comments = comments.filter(c => c.id !== id);
+    comments = comments.filter(c => c.id !== id); // no update comments array just make a new one - makes a copy to be able to change
     res.redirect('/comments');
 })
 
