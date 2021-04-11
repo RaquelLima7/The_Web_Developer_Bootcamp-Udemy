@@ -16,3 +16,17 @@
 
 // create:
 // use nomeDataBase
+
+
+// MongoDB CRUD
+
+//Insert
+//db.collection.insertOne() - Inserts a single document into a collection.
+//db.collection.insertMany() - db.collection.insertMany() inserts multiple documents into a collection.
+//db.collection.insert() - db.collection.insert() inserts a single document or multiple documents into a collection.
+
+//ex.: db.dogs.insertOne( {name: "Charlie", age: 3, breed: "corgi", carFriendely: true})
+//db.dogs.find() //shows everyrhing is in there
+// id is automatically create by Mongo
+
+//db.dogs.insert([{ name:"Wyatt", breed "Golden", age: 14, carFriendely: false }, { name:"Tonya", breed "Chihuahua", age: 17, carFriendely: true }])
