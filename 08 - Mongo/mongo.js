@@ -30,3 +30,10 @@
 // id is automatically create by Mongo
 
 //db.dogs.insert([{ name:"Wyatt", breed "Golden", age: 14, carFriendely: false }, { name:"Tonya", breed "Chihuahua", age: 17, carFriendely: true }])
+
+
+// Find
+
+// db.collection.find() - pass a object inside
+
+// ex: db.collection.find({breed: "corgi"})
