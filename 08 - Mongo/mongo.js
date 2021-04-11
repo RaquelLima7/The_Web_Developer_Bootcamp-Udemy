@@ -43,3 +43,9 @@
 //{ $set: { <newField>: <expression>, ... } }
 // first we find what want to change and secont you pass the element to change 
 //db.dogs.updateOne({ name: "Charlie"}, {$set: {age: 4}})
+
+
+//Delete
+//db.collection.deleteMany()
+//db.collection.deleteOne() => just specified what you want to delete
+//db.dogs.deleteOne({ name: "Charlie"})
