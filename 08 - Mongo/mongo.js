@@ -33,7 +33,13 @@
 
 
 // Find
-
 // db.collection.find() - pass a object inside
 
 // ex: db.collection.find({breed: "corgi"})
+
+
+// Update
+//Adds new fields to documents. $set outputs documents that contain all existing fields from the input documents and newly added fields.
+//{ $set: { <newField>: <expression>, ... } }
+// first we find what want to change and secont you pass the element to change 
+//db.dogs.updateOne({ name: "Charlie"}, {$set: {age: 4}})
