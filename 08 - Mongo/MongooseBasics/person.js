@@ -20,6 +20,9 @@ personSchema.virtual('fullName').get(function () {
     return `${this.first} ${this.last}`
 })
 
+//Middleware
+//When you have a user and he is deleted, then all comments, 
+//photos etc of him need to be deleted as well.
 personSchema.pre('save', async function () {
     this.first = 'YO';
     this.last = 'MAMA';
@@ -31,5 +34,3 @@ personSchema.post('save', async function () {
 
 
 const Person = mongoose.model('Person', personSchema);
-
-
