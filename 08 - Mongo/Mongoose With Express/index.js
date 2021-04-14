@@ -5,6 +5,7 @@
 // touch inex.js
 // ls
 // mkdir views
+// need install override - npm i method-override
 
 const express = require('express');
 const app = express();
@@ -53,7 +54,7 @@ app.get('/products/new', (req, res) => {
 app.post('/products', async (req, res) => {
     const newProduct = new Product(req.body);
     await newProduct.save();
-    res.redirect(`/products/${newProduct._id}`)
+    res.redirect(`/products/${newProduct._id}`) // When save will redirect to the page with the product has been created
 })
 
 app.get('/products/:id', async (req, res) => {
@@ -62,6 +63,8 @@ app.get('/products/:id', async (req, res) => {
     res.render('products/show', { product })
 })
 
+
+// need pass :id because need figure out what is change
 app.get('/products/:id/edit', async (req, res) => {
     const { id } = req.params;
     const product = await Product.findById(id);
