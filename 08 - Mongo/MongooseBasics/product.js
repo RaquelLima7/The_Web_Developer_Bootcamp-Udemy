@@ -17,7 +17,8 @@ const productSchema = new mongoose.Schema({
     price: {
         type: Number,
         required: true,
-        min: [0, 'Price must be positive ya dodo!']
+        min: [0, 'Price must be positive ya dodo!'] // the second argument is a error to show up
+        // is a custom message
     },
     onSale: {
         type: Boolean,
@@ -36,7 +37,7 @@ const productSchema = new mongoose.Schema({
     },
     size: {
         type: String,
-        enum: ['S', 'M', 'L']
+        enum: ['S', 'M', 'L'] // must be one of this
     }
 
 });
@@ -95,7 +96,9 @@ const findProduct = async () => {
 //         console.log(err)
 //     })
 
-// Product.findOneAndUpdate({ name: 'Tire Pump' }, { price: 9 }, { new: true, runValidators: true })
+
+// need to use runValidators: true to apply the validations on update
+// Product.findOneAndUpdate({ name: 'Tire Pump' }, { price: 9 }, { new: true, runValidators: true }) 
 //     .then(data => {
 //         console.log("IT WORKED!")
 //         console.log(data);
