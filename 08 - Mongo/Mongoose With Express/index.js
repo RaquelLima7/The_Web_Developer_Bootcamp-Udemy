@@ -13,7 +13,9 @@ const mongoose = require('mongoose');
 const methodOverride = require('method-override')
 
 
-const Product = require('./models/product');
+const Product = require('./models/product'); //Product create at line 20 in models product.js
+
+// have to create a seeds.js file
 
 mongoose.connect('mongodb://localhost:27017/farmStand', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
